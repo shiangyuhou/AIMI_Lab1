@@ -3,6 +3,14 @@ Chest X-ray Pneumonia Classification Using ResNet
 
 原始最佳權重為 ResNet18 搭配隨機旋轉 ( 15度 ) 在第 29 個 Epoch 的權重 (random seed = 2026)。
 
+
+## Download the dataset if needed
+```bash
+curl -L -o ./chest-xray-pneumonia.zip\
+  https://www.kaggle.com/api/v1/datasets/download/paultimothymooney/chest-xray-pneumonia
+unzip chest-xray-pneumonia.zip 
+```
+
 ## Evaluate the best model weight on a labeled test set
 
 ```bash
@@ -70,7 +78,6 @@ python -m pip install torch==2.14.1 torchvision==0.29.1 \
 
 
 
-To start other process 
 
 exec
 ```source .venv/bin/activate```

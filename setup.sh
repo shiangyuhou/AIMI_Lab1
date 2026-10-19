@@ -1,4 +1,3 @@
-unzip chest_xray.zip -d chest_xray
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
